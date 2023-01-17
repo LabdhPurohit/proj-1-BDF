@@ -25,7 +25,26 @@ SECRET_KEY = 'django-insecure-@#fop&1mkrdpp2hx0w%%fez4-e*&tqnhvu9(%u60$_#&=zplfv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'labdhp1.azurewebsites.net']
+ALLOWED_HOSTS = ['*']
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+
+CSRF_TRUSTED_ORIGINS = ['labdhp1.azurewebsites.net']
+
+CORS_REPLACE_HTTPS_REFERER = True
+
+CSRF_COOKIE_DOMAIN = 'azurewebsites.net'
+
+CORS_ORIGIN_WHITELIST = (
+    'https://labdhp1.azurewebsites.net/',
+    'labdhp1.azurewebsites.net',
+    'azurewebsites.net',
+)
 
 
 # Application definition
