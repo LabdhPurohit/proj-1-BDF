@@ -34,7 +34,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
 
-CSRF_TRUSTED_ORIGINS = ['https://labdhp1.azurewebsites.net/']
+CSRF_TRUSTED_ORIGINS = ['https://labdhp1.azurewebsites.net','https://*.20.40.202.21']
 
 CORS_REPLACE_HTTPS_REFERER = True
 
