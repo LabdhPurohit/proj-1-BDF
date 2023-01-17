@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CORS_ORIGIN_WHITELIST = [
+    "https://labdhp1.azurewebsites.net",
+]
 
 # Application definition
 
