@@ -27,9 +27,24 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CORS_ORIGIN_WHITELIST = [
-    "https://labdhp1.azurewebsites.net",
-]
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+
+CSRF_TRUSTED_ORIGINS = ['labdhp1.azurewebsites.net']
+
+CORS_REPLACE_HTTPS_REFERER = True
+
+CSRF_COOKIE_DOMAIN = 'azurewebsites.net'
+
+CORS_ORIGIN_WHITELIST = (
+    'https://labdhp1.azurewebsites.net/',
+    'labdhp1.azurewebsites.net',
+    'azurewebsites.net',
+)
 
 # Application definition
 
