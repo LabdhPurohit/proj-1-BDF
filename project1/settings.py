@@ -41,7 +41,7 @@ CSRF_TRUSTED_ORIGINS = ['https://labdhp1.azurewebsites.net','https://*.20.40.202
 
 CORS_REPLACE_HTTPS_REFERER = True
 
-CSRF_COOKIE_DOMAIN = 'azurewebsites.net'
+#CSRF_COOKIE_DOMAIN = 'azurewebsites.net'
 
 CORS_ORIGIN_WHITELIST = (
     'https://labdhp1.azurewebsites.net/',
