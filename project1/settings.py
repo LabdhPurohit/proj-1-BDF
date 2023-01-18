@@ -33,9 +33,9 @@ ALLOWED_HOSTS = ['*']
 
 # CORS_ALLOW_CREDENTIALS = True
 
-CSRF_COOKIE_SECURE = False
+#CSRF_COOKIE_SECURE = False
 
-CSRF_COOKIE_HTTPONLY = False
+#CSRF_COOKIE_HTTPONLY = False
 
 CSRF_TRUSTED_ORIGINS = ['https://labdhp1.azurewebsites.net','https://*.20.40.202.21']
 
